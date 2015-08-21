@@ -1,0 +1,30 @@
+{
+  "name": "broccoli-jsx2idom",
+  "description": "JSX 2 Incremental DOM transpiler plugin for Broccoli",
+  "version": "1.0.0",
+  "main":"./lib/index.js",
+  "license": "BSD-3-Clause",
+  "repository": "markuskobler/broccoli-jsx2idom",
+  "scripts":{
+    "test": "mocha --harmony"
+  },
+  "dependencies": {
+    "broccoli-caching-writer": "^1.1.0",
+    "acorn": "^2.3.0",
+    "acorn-jsx": "^2.0.0",
+    "escodegen": "^1.6.1",
+    "ast-types": "*",
+    "mkdirp": "^0.3.5",
+    "rsvp": "^3.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "chai": "^3.0.0"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "jsx"
+  ]
+}
