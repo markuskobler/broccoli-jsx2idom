@@ -1,1 +1,1 @@
-elementVoid("input", null, ["type", "text"]);
+elementVoid("input", null, ["type", "text"]);;

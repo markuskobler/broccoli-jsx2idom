@@ -10,9 +10,8 @@
   },
   "dependencies": {
     "broccoli-caching-writer": "^1.1.0",
-    "acorn": "^2.3.0",
-    "acorn-jsx": "^2.0.0",
-    "escodegen": "^1.6.1",
+    "falafel": "https://github.com/JoshuaGross/node-falafel.git#3f9d2ea25484ea4fdb8b26e85d2c205a62cef4b5",
+    "espree":"2.2.4",
     "ast-types": "*",
     "mkdirp": "^0.3.5",
     "rsvp": "^3.0.6"
