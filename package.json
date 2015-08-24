@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "broccoli-caching-writer": "^1.1.0",
-    "falafel": "https://github.com/JoshuaGross/node-falafel.git#3f9d2ea25484ea4fdb8b26e85d2c205a62cef4b5",
-    "espree":"2.2.4",
+    "espree":"^2.2.4",
+    "source-map":"*",
     "ast-types": "*",
     "mkdirp": "^0.3.5",
-    "rsvp": "^3.0.6"
+    "rsvp": "^3.0.6",
+
+    "recast":"*"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
