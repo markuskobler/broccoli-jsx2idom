@@ -9,20 +9,20 @@
     "test": "mocha --harmony"
   },
   "dependencies": {
-    "broccoli-caching-writer": "^1.1.0",
-    "espree":"^2.2.4",
+    "broccoli-caching-writer": "1.0.0",
+    "espree": "^2.2.5",
     "source-map":"*",
     "ast-types": "*",
-    "mkdirp": "^0.3.5",
-    "rsvp": "^3.0.6",
-
+    "mkdirp": "^0.5.1",
+    "rsvp": "^3.1.0",
+    "symlink-or-copy": "1.0.1",
     "recast":"*"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "sinon": "^1.15.4",
+    "mocha": "^2.3.3",
+    "sinon": "^1.16.1",
     "sinon-chai": "^2.8.0",
-    "chai": "^3.0.0"
+    "chai": "^3.3.0"
   },
   "keywords": [
     "broccoli-plugin",
