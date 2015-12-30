@@ -1,7 +1,7 @@
 {
   "name": "broccoli-jsx2idom",
   "description": "JSX 2 Incremental DOM transpiler plugin for Broccoli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main":"./lib/index.js",
   "license": "BSD-3-Clause",
   "repository": "markuskobler/broccoli-jsx2idom",
